@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+   <nav>
+    <ul>
+       <li><a href="index.html">Inicio</a></li>
+       <li><a href="#perfil">Perfil </a></li>
+       <li><a href="#habilidades">Habilidades </a></li>
+       <li><a href="#estudios">Estudios </a></li>
+       <li><a href="#contactos">Contactos </a></li>
+       <li><a href="#proyectos">Proyectos </a></li>
+    </ul>
+   </nav>
+   <header>
+    <img class="mi_foto" src="img/perfil.jpg" alt="foto de fernanda">
+    <h1>Maria Fernanda Giraldo López</h1>
+    <a href="https://www.instagram.com/1_fernanda__">Mi ig</a>
+   </header>
+
+   <!-- esto es un ejemplo para aprender magin y padding
+   <div id= "prueba">
+      <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore explicabo, corporis accusantium, ipsum molestiae modi dolorem quidem quod iure totam libero sequi maiores tenetur aliquid vero amet debitis velit esse!</p>
+   </div> -->
+   
+  <section id="perfil">
+     <h2>Perfil</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officia saepe nam, provident illo repellendus. Fugit id a quae. Quaerat vitae explicabo, iure incidunt facere repellat omnis nihil qui sed.</p>
+     <p class="destacados">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officia saepe nam, provident illo repellendus. Fugit id a quae. Quaerat vitae explicabo, iure incidunt facere repellat omnis nihil qui sed.</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officia saepe nam, provident illo repellendus. Fugit id a quae. Quaerat vitae explicabo, iure incidunt facere repellat omnis nihil qui sed.</p>
+     <a href class=" uno ">proyecto 1</a>
+     <a href class="dos">proyecto 2</a>
+     <a href class="tres">proyecto 3</a>
+     <a href class="cuatro">proyecto 4</a>
+  </section>
+ 
+   <section id="habilidades">
+     <h2>Habilidades</h2>
+      <div class="fila">
+         <div class="col">
+            <img class="logos" src="img/logo html.png" alt="Logo HTML">
+            <div class="texto">
+               <h3>HTML5</h3>
+               <p>3 años de experiencia</p>
+            </div>
+         </div>
+         <div class="col">
+            <img class="logos" src="img/logo css.png" alt="logo css">
+            <div class="texto">
+               <h3>css</h3>
+               <p>2 años de experiencia</p>
+            </div>
+         </div>
+         <div class="col">
+            <img class="logos" src="img/logo js.png" alt="logo js">
+            <div class="texto">
+               <h3>JavaScript</h3>
+               <p>2 años de experiencia</p>
+            </div>
+         </div>
+      </div>
+      <div class="fila">
+         <div class="col">
+            <img class="logos" src="img/bonito.jpg" alt="Logo php">
+            <div class="texto">
+               <h3>php</h3>
+               <p>3 años de experiencia</p>
+            </div>
+         </div>
+         <div class="col">
+            <img class="logos" src="img/python logo png.png" alt="logo python">
+            <div class="texto">
+               <h3>python</h3>
+               <p>2 años de experiencia</p>
+            </div>
+         </div>
+         <div class="col">
+            <img class="logos" src="img/mysql-logo-1.png" alt="logo MySQL">
+            <div class="texto">
+               <h3>MySQL</h3>
+               <p>2 años de experiencia</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="estudios"> 
+        <h2>Estudios</h2>
+        <div class="fila">
+           <div class="col">
+            <h3>tecnico operador y programador en sistemas</h3>
+            <p>academia futuro</p>
+            <p>1999</p>
+         </div>
+         <div class="col">
+            <h3>licenciado en informatica</h3>
+            <p>undenar</p>
+            <p>2007</p>
+           </div>
+       </div>
+
+       <div class="fila">
+         <div class="col">
+            <h3>ingeniera en sistemas</h3>
+            <p>los andes</p>
+            <p>2028</p>
+
+         </div>
+         <div class="col">
+            <h3>tegnologo en alalisis y desarrollo de software</h3>
+            <p>sena</p>
+            <p>2026</p>
+
+         </div>
+       </div>
+   </section> 
+
+   <section id="proyectos"> 
+      <h2>Proyectos</h2>
+      <div class="fila">
+         <div class="col">
+            <iframe width="470" height="265" src="https://www.youtube.com/embed/10GHKjgQIR0?si=KBHy7KW81kiJcuTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             <h3>Que es html</h3>  
+         </div>
+         <div class="col">
+            <iframe width="470" height="265" src="https://www.youtube.com/embed/Rv910T1BJUw?si=G95lCdLSmqQPWtPW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h3>Que es python</h3>
+         </div>
+      </div>
+      
+    </section> 
+
+    <section id="contactos">
+      <h2>Contactos</h2>
+      <div class="fila">
+         <div class="col">
+            <form action="#">
+               <!-- <label for="nombre">Nombre completo</label> -->
+               <input class="formulario" type="text" id="nombre" placeholder="Nombre completo"> 
+               
+               <!-- <label for="correo">Correo electronico</label> -->
+               <input class= "formulario" id="correo" placeholder="Correo electronico">
+               
+               <!-- <label for="asunto">Asunto</label> -->
+               <input class="formulario" ctype="text" id="asunto" placeholder="Asunto">
+
+               <textarea class="formulario" id="mensaje" placeholder="mensaje"></textarea>
+               <input class="formulario" type="submit" value="Enviar">
+            </form>
+         </div>
+         <div class="col">
+            <h3>Dirección</h3>
+            <p>Cra. 8 #26-79, Pereira, Risaralda</p>
+            <h3>Números Telefónicos</h3>
+            <p>3054181848</p>
+            <p>3169408652</p>
+            <p>(6)3136390</p>
+            <h3>Correo electrónico</h3>
+            <p>mariafernandagiraldolopez7@gmail.com</p>
+         </div>
+         <div class="col mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31806.35079202305!2d-75.73427161070823!3d4.805422929221119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38874fecb5c80d%3A0xe2ea252ec17f3dd7!2sSENA%20-%20Centro%20Agropecuario%20y%20de%20Comercio%20y%20Servicios.!5e0!3m2!1ses!2sco!4v1715877704017!5m2!1ses!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+      </div>
+    </section>
+</body>
+</html>

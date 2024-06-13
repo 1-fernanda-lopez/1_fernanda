@@ -1,0 +1,167 @@
+*{margin: 0;  /*margen como espacio externo*/
+padding: 0;   /*margen como espacio interno*/
+}  
+
+body{
+    text-align: center; /*texto cntrado*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* cambiar la letra de fuente*/
+}
+
+nav{
+    background: rgba(0, 0, 0, 0.636); /*color de fondo*/ 
+    color: rgb(122, 234, 244);
+    height: 4em; /*alto*/
+    position: fixed;/* que el elemento no se mueva de una posicion*/
+    width: 100%;/*ancho*/
+
+}
+
+nav ul li {
+    display: inline-block; /*alinear horizontalmente*/
+    margin-right: 2em;
+    line-height: 4em; /* alienear verticalmente en un anto determinado*/
+}
+
+ nav ul li a {
+    color: rgb(225, 131, 225); /*color de fuente*/
+    font-size: 1.5em; /*tamaño en la fuente en medida proporcional*/
+    text-decoration: none; /*declaracion de texto = ninguna*/
+}
+nav ul li a:hover{ /* hover es cuando el puntero del ,mouse este sobre*/
+    color: white;
+} 
+header{
+    background-image: url('../img/fondo.webp'); /*fondo de imagen*/
+    background-repeat: no-repeat;/*evitar que se repita la img*/
+    background-size: cover;/*cubre todo el fondo*/
+    padding: 2em 0em;
+    
+}
+.mi_foto{
+    border-radius: 50%; /*redondear foto bordes*/
+    border: 5px rgb(226, 151, 223) solid;/* borde ancho color estilo*/
+    width: 30%;
+
+}
+   
+
+ /*  #prueba{
+    border: 2px rgb(241, 167, 234) solid;  borde de un texto
+    width:50%; el ancho de un borde se maneja en potcentaje
+    margin :3em auto; la margen se pone a 4 lados en una sola linea de codigo de acuerdo al reloj y para centrar se poneauto
+padding: 2em ; margen del texto }    */
+
+h1{
+    color: rgb(213, 89, 207);
+    text-shadow: 2px 2px 5px rgb(4, 4, 4) ;/* sombra del texto ejex ejey grosor color */
+
+}
+
+header a {
+    color: rgb(206, 164, 204);
+    font-weight: bold;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+ section{ width: 80%;
+    margin: 2em auto;
+    padding: 2em;
+    box-shadow: 0px 0px 20px 5px black;
+  /* sombra caja, eje x eje y, difuminado tamaño color */
+}
+section h2{
+    color: rgb(213, 60, 159);
+    border-bottom: 4px rgb(184, 98, 184) dashed;
+    margin: 2em 0;
+    font-size: 1.8em; /*  tamaño de la fuente */
+    font-weight: bold; /* ancho de la fuente */
+}
+#perfil  p{ 
+    margin-bottom: 1em;
+}
+
+.destacados {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: rgb(247, 181, 242);
+   }
+section a  {
+
+    margin: 1.5em ;
+    box-shadow: 2px 2px 20px 5px ;
+    padding: 0.5em 0.3em;
+    border-radius: 20px;
+    
+
+     }
+.uno:hover{
+        color: rgb(52, 14, 239);
+      }
+.dos:hover{
+        color: rgb(22, 11, 232);
+     }
+.tres:hover
+     {
+       color: grey;
+     }
+.cuatro:hover{
+        color: rgb(160, 160, 166);
+
+     }
+     
+.fila{
+        /*border: 1px red dashed;*/
+        margin-bottom: 1em;
+     }
+ #estudios .col { 
+       /* border: 1px green dashed;*/
+        width: 40%;
+        
+     }
+.col{
+        display: inline-block;/*para poner un texto al lado de otro alineacion horizontal*/
+        vertical-align:top ; /*para alinear el contenido desde arriba*/
+        text-align: left;/*alinear textos a la izquierda*/
+    }
+.fila {
+        margin-bottom: 1em;
+     }
+ #habilidades .col { 
+        /* border: 1px red solid;*/
+         width: 30%;
+         
+      }
+      /*las imagenes se adecuan al tamaño maximo de su caja padre*/
+   img{
+    max-width: 100%;
+   }   
+
+   .logos{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+   }
+   .texto{
+    width: 60;
+   display: inline-block;
+   vertical-align: top;
+   }
+
+   #proyectos .col{
+    width: 45%;
+    margin-right: 2em;
+   }
+.formulario{
+    display: block; /* alineacion vertical*/
+    border: 3px rgb(253, 101, 147) solid;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 15px;
+}   
+#contactos .col{
+    width: 25%;
+}
+
+#contactos .mapa{
+    width: 40%;
+}
